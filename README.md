@@ -1,12 +1,11 @@
 ### Date created
-Include the date you created this project and README file.
 02.06.2020
 
 ### Project Title
-Replace the Project Title
+bikeshare_nicole
 
 ### Description
-Describe what your project is about and what it does
+The bikeshare project analyses bikeshare data from three different cities (*Chicago, New York City and Washington*)
 
 ### Files used
 Include the files used
