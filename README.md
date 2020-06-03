@@ -2,14 +2,16 @@
 02.06.2020
 
 ### Project Title
-bikeshare_nicole
+**bikeshare_nicole**
 
 ### Description
 The bikeshare project analyses bikeshare data from three different cities (*Chicago, New York City and Washington*)
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The data was provided by [motivateco](https://www.motivateco.com/)
 
