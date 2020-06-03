@@ -11,6 +11,7 @@ The bikeshare project analyses bikeshare data from three different cities (*Chic
 chicago.csv
 new_york_city.csv
 washington.csv
+bikeshare_nicole.py
 
 ### Credits
 The data was provided by [motivateco](https://www.motivateco.com/)
