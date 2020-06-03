@@ -29,7 +29,7 @@ def get_filters():
 
     # get user input for month (all, january, february, ... , june)
     month = ['january','february', 'march', 'april', 'may', 'june', 'all']
-    input_month = input("please choose a month from january to june or all: ").lower()
+    input_month = input("You can now choose a month from january to june or all: ").lower()
     print("Your choice: {}".format(input_month))
     while input_month not in month:
         print("There might be a spelling mistake, please try again!", end='')
