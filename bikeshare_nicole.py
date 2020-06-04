@@ -15,7 +15,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
     city = ['chicago','new york city', 'washington','all']
@@ -136,9 +136,9 @@ def station_stats(df):
     # display most frequent combination of start station and end station trip
     common_start_station = df['Start Station'].mode()[0]
     common_end_station = df['End Station'].mode()[0]
-    common_combination = df.groupby(['Start Station', 'End Station']).size().nlargest(1)
+    common_combi = df.groupby(['Start Station', 'End Station']).size().nlargest(1)
 
-    print('Most frequent combination of start station and end station:', common_combination)
+    print('Most frequent combination of start station and end station:', common_combi)
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -157,9 +157,9 @@ def trip_duration_stats(df):
     print('total travel time:', total_travel_time)
 
     # display mean travel time
-    mean_travel_time = (df['Trip Duration'].mean()) / 60
+    average_travel_time = (df['Trip Duration'].mean()) / 60
 
-    print('mean travel time:', mean_travel_time)
+    print('average travel time:', average_travel_time)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
